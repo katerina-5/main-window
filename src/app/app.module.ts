@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MainContentComponent } from './main-content/main-content.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainContentComponent
   ],
   imports: [
     BrowserModule,
