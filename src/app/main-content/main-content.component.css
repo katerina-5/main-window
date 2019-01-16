@@ -1,0 +1,115 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  height: 50vh;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+span {
+  color: blue;
+}
+
+main {
+  width: 100%;
+  height: 80%;
+  /* height: 200px; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: flex-start;
+  border: 1px solid black;
+  position: relative;
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-end; */
+  justify-content: flex-start;
+}
+
+textarea {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  width: 85%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  display: flex;
+  /* align-items: flex-start; */
+  justify-content: center;
+}
+
+input {
+  display: flex;
+  right: 10px;
+  position: absolute;
+  height: 20px;
+  top: calc(50% - 10px);
+  /* align-items: flex-end; */
+  /* justify-content: flex-end; */
+}
+
+button {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  /* width: 100px;
+  height: 50px; */
+}
+
+main > div {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mark {
+  display: inline-block;
+  width: 10%;
+  height: 100%;
+  background: #000;
+}
